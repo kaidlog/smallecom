@@ -82,7 +82,6 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'dj_database_url.config()',
-        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
