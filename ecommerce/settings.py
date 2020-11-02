@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'dj_database_url.config()',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
