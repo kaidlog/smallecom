@@ -26,7 +26,7 @@ SECRET_KEY = '++(2e$fmvtmb!m05=6062f(b@m&=2+h#t&-3u&=xbuok0=#&7b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://dashboard.heroku.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
