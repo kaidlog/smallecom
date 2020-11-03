@@ -26,7 +26,7 @@ SECRET_KEY = '++(2e$fmvtmb!m05=6062f(b@m&=2+h#t&-3u&=xbuok0=#&7b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://smallecom.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
@@ -81,7 +81,8 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'dj_database_url.config()',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
