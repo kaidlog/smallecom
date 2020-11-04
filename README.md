@@ -1,7 +1,7 @@
 # smallecom
 
-## Target: to build a ecommerce shop 
-
+## Target:  
+##### -- to build a ecommerce shop
 ## Package:
 
 ##### -- asgiref==3.2.10
